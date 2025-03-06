@@ -1,0 +1,56 @@
+/* General CSS for the home page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* Soft yellow background for the page */
+}
+
+.landing-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    max-width: 600px;
+    background-color: #fff; /* White content background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #000; /* Black for the logo text */
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333; /* Dark gray for the header text */
+}
+
+main p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555; /* Medium gray for the supporting text */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #d84315; /* Deep orange for buttons */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #bf360c; /* Darker orange */
+    transform: scale(1.05); /* Slight hover scaling */
+}
